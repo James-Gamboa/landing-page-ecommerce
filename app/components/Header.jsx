@@ -7,11 +7,11 @@ export default function Header() {
   const [showSubmenu, setShowSubmenu] = useState(false);
 
   return (
-    <header className="bg-gray-800 text-white">
-      <div className="flex justify-between items-center p-2 bg-gray-700 text-sm">
+    <header className="text-white">
+      <div className="flex justify-between items-center p-2 bg-custom-high-gray text-sm">
         <span>Welcome to Needus & Get the best product</span>
         <div>
-          <button className="mr-2">ENG</button> |
+          <button className="mr-2">ENG </button> |
           <button className="ml-2">USD</button>
         </div>
       </div>
@@ -24,7 +24,7 @@ export default function Header() {
             height={100}
             className="text-2xl font-bold"
           />
-          <div className="flex items-center bg-gray-200 rounded-md overflow-hidden">
+          <div className="flex items-center rounded-md overflow-hidden">
             <input
               type="text"
               placeholder="Search Products"
@@ -35,13 +35,13 @@ export default function Header() {
               alt="Search Icon"
               width={35}
               height={35}
-              className="p-2 bg-gray-400"
+              className="p-2 bg-custom-high-gray"
             />
             <div className="relative">
               <button
                 onMouseEnter={() => setShowSubmenu(true)}
                 onMouseLeave={() => setShowSubmenu(false)}
-                className="px-4 py-2 bg-red-600 rounded"
+                className="px-4 py-2 text-black rounded"
               >
                 All Categories
               </button>
@@ -64,7 +64,7 @@ export default function Header() {
               )}
             </div>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 text-black">
             <Link href="/login">Login</Link>
             <Link href="/signup">Signup</Link>
             <Image

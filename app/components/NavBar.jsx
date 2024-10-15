@@ -5,13 +5,13 @@ import Image from "next/image";
 export default function NavBar() {
   const [showSubmenu, setShowSubmenu] = useState(false);
   return (
-    <nav className="bg-gray-900">
+    <nav className="bg-custom-high-gray">
       <div className="container mx-auto flex justify-between items-center p-2">
         <div className="relative">
           <button
             onMouseEnter={() => setShowSubmenu(true)}
             onMouseLeave={() => setShowSubmenu(false)}
-            className="px-4 py-2 bg-red-600 rounded"
+            className="px-4 py-2 bg-custom-light-orange text-white rounded"
           >
             All Categories
           </button>
@@ -33,14 +33,14 @@ export default function NavBar() {
             </div>
           )}
         </div>
-        <div className="flex space-x-6">
-          <Link href="/">HOME</Link>
-          <Link href="/about">ABOUT</Link>
-          <Link href="/products">PRODUCT</Link>
-          <Link href="/pages">PAGES</Link>
-          <Link href="/contact">CONTACT</Link>
-        </div>
-        <div className="flex items-center">
+        <div className="flex space-x-6 text-white">
+          <Link href="/" className="hover:text-custom-light-orange transition duration-300 px-2 py-1">HOME</Link>
+          <Link href="/" className="hover:text-custom-light-orange transition duration-300 px-2 py-1">ABOUT</Link>
+          <Link href="/" className="hover:text-custom-light-orange transition duration-300 px-2 py-1">PRODUCT</Link>
+          <Link href="/" className="hover:text-custom-light-orange transition duration-300 px-2 py-1">PAGES</Link>
+          <Link href="/" className="hover:text-custom-light-orange transition duration-300 px-2 py-1">CONTACT</Link>
+          </div>
+        <div className="flex items-center text-white">
           <p>Contact Us 24/7</p>
           <Image
             src="/img/logo-support.png"
