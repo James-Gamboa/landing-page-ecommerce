@@ -27,8 +27,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <footer className="bg-gray-800 text-white py-10">
-        <div className="bg-gray-900 py-8">
+      <footer className="bg-custom-high-gray text-white py-10">
+        <div className="py-8">
           <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center sm:text-left">
             <div>
               <h3 className="font-semibold mb-3">ABOUT US</h3>
@@ -122,7 +122,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-800 py-4 text-center text-gray-500">
+        <div className="py-4 text-center text-gray-500">
           <p>&copy; 2023 All Right Reserved</p>
         </div>
       </footer>
