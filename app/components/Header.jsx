@@ -31,7 +31,7 @@ export default function Header() {
               height={100}
             />
           </div>
-          <div className="flex items-center space-x-2 relative">
+          <div className="flex items-center relative">
             <input
               type="text"
               placeholder="Search Products"
@@ -42,7 +42,7 @@ export default function Header() {
               alt="Search Icon"
               width={35}
               height={35}
-              className="p-2 bg-custom-high-gray rounded-r-md border-2"
+              className="p-2 bg-custom-high-gray rounded-r-md border-2 w-[11%]"
             />
             <div
               onMouseEnter={() => setShowSubmenu(true)}
@@ -64,11 +64,11 @@ export default function Header() {
                   ))}
                 </div>
               )}
+              <Link href="/">Login</Link>
+              <Link href="/">Signup</Link>
             </div>
           </div>
           <div className="flex items-center space-x-4 text-black">
-            <Link href="/">Login</Link>
-            <Link href="/">Signup</Link>
             <Image
               src="/img/favorite.png"
               alt="Favorite Icon"
