@@ -5,28 +5,33 @@ export default function Footer() {
     <>
       <div
         className="relative bg-cover bg-center py-10 px-4"
-        style={{
-          backgroundImage: "url('/img/background-image.png')",
-        }}
+        style={{ backgroundImage: "url('/img/background-image.png')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="container mx-auto text-center mb-6 text-white relative z-10">
-          <h2 className="text-2xl font-bold mb-2">
-            Join our newsletter and get offers
-          </h2>
-          <p className="mb-4">Sign up for our newsletter</p>
-          <div className="flex justify-center">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="p-2 rounded-l-lg focus:outline-none w-64 sm:w-80"
-            />
-            <button className="bg-custom-light-orange text-white p-2 rounded-r-lg hover:bg-red-600 transition duration-300">
-              SUBSCRIBE
-            </button>
+
+        <div className="container mx-auto text-white relative z-10">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="text-center md:text-left mb-6 md:mb-0">
+              <h2 className="text-2xl font-bold mb-2">
+                Join our newsletter and get offers
+              </h2>
+              <p>Sign up for our newsletter</p>
+            </div>
+
+            <div className="flex">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="p-3 text-lg border border-gray-300 rounded-l-lg focus:outline-none w-72 sm:w-96"
+              />
+              <button className="bg-[#FF5722] text-white p-3 px-8 text-lg rounded-r-lg hover:bg-red-600 transition duration-300">
+                SUBSCRIBE
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
       <footer className="bg-custom-high-gray text-white py-10">
         <div className="py-8">
           <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center sm:text-left">
