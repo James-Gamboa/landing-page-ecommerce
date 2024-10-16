@@ -32,102 +32,106 @@ export default function Footer() {
         </div>
       </div>
 
-      <footer className="bg-custom-high-gray text-white py-10">
-        <div className="py-8">
-          <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 text-center sm:text-left">
-            <div>
-              <h3 className="font-semibold mb-3">ABOUT US</h3>
-              <p className="text-white text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                aliquet lacinia nulla ut laoreet.
-              </p>
-              <div className="flex justify-center sm:justify-start space-x-4 mt-4">
-                <Image
-                  src="/img/logo-facebook.png"
-                  alt="Logo Facebook"
-                  width={20}
-                  height={20}
-                />
-                <Image
-                  src="/img/logo-whatsapp.png"
-                  alt="Logo Whatsapp"
-                  width={20}
-                  height={20}
-                />
-                <Image
-                  src="/img/logo-instagram.png"
-                  alt="Logo Instagram"
-                  width={20}
-                  height={20}
-                />
-                <Image
-                  src="/img/logo-youtube.png"
-                  alt="Logo Youtube"
-                  width={20}
-                  height={20}
-                />
-              </div>
+      <footer className="bg-custom-high-gray text-white py-8">
+        <div className="container mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 text-left">
+          <div>
+            <h3 className="font-semibold mb-4 text-lg">ABOUT US</h3>
+            <p className="text-gray-300 text-sm mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              aliquet lacinia nulla ut laoreet. Quisque ultricies et tortor nec
+              laoreet.
+            </p>
+            <div className="flex space-x-4">
+              <Image
+                src="/img/logo-facebook.png"
+                alt="Facebook"
+                width={20}
+                height={20}
+              />
+              <Image
+                src="/img/logo-whatsapp.png"
+                alt="Whatsapp"
+                width={20}
+                height={20}
+              />
+              <Image
+                src="/img/logo-instagram.png"
+                alt="Instagram"
+                width={20}
+                height={20}
+              />
+              <Image
+                src="/img/logo-youtube.png"
+                alt="Youtube"
+                width={20}
+                height={20}
+              />
             </div>
-            <div>
-              <h3 className="font-semibold mb-3">INFORMATION</h3>
-              <ul className="text-white text-sm space-y-2">
-                <li>About</li>
-                <li>Delivery Information</li>
-                <li>Privacy Policy</li>
-                <li>Sales</li>
-                <li>Terms & Conditions</li>
-                <li>EMI Payment</li>
-              </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-4 text-lg">INFORMATION</h3>
+            <ul className="space-y-2 text-gray-300 text-sm">
+              <li>About</li>
+              <li>Delivery Information</li>
+              <li>Privacy Policy</li>
+              <li>Sales</li>
+              <li>Terms & Conditions</li>
+              <li>EMI Payment</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-4 text-lg">ACCOUNT</h3>
+            <ul className="space-y-2 text-gray-300 text-sm">
+              <li>My Account</li>
+              <li>My Orders</li>
+              <li>Returns</li>
+              <li>Shipping</li>
+              <li>Wishlist</li>
+              <li>Account Details</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-4 text-lg">STORE</h3>
+            <ul className="space-y-2 text-gray-300 text-sm">
+              <li>Affiliate</li>
+              <li>Discounts</li>
+              <li>Sale</li>
+              <li>Contact</li>
+              <li>All Collections</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-4 text-lg">CONTACT US</h3>
+            <p className="text-gray-300 text-sm mb-2">
+              If you have any query, please contact us
+            </p>
+            <p className="text-custom-light-orange mb-4">needus24@gmail.com</p>
+            <div className="flex items-start space-x-2 mb-2">
+              <Image
+                src="/img/logo-location.png"
+                alt="Location"
+                width={20}
+                height={20}
+              />
+              <p className="text-gray-300 text-sm">California, USA</p>
             </div>
-            <div>
-              <h3 className="font-semibold mb-3">ACCOUNT</h3>
-              <ul className="text-white text-sm space-y-2">
-                <li>My Account</li>
-                <li>My Orders</li>
-                <li>Returns</li>
-                <li>Shipping</li>
-                <li>Wishlist</li>
-                <li>Account Details</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-3">STORE</h3>
-              <ul className="text-white text-sm space-y-2">
-                <li>Affiliate</li>
-                <li>Discounts</li>
-                <li>Sale</li>
-                <li>Contact</li>
-                <li>All Collections</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-3">CONTACT US</h3>
-              <p className="text-white text-sm">
-                If you have any query, please contact us
-              </p>
-              <p className="text-custom-light-orange">needus24@gmail.com</p>
-              <div className="flex items-center space-x-2">
-                <Image
-                  src="/img/logo-location.png"
-                  alt="Logo Location"
-                  width={30}
-                  height={30}
-                />
-                <p className="text-white text-sm mt-2">California, USA</p>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Image
-                  src="/img/logo-mobile.png"
-                  alt="Logo Mobile"
-                  width={30}
-                  height={30}
-                />
-                <p className="text-white text-sm">+12012987481</p>
-              </div>
+            <div className="flex items-start space-x-2">
+              <Image
+                src="/img/logo-mobile.png"
+                alt="Mobile"
+                width={20}
+                height={20}
+              />
+              <p className="text-gray-300 text-sm">+12012987481</p>
             </div>
           </div>
         </div>
-        <div className="py-4 text-center text-gray-500">
+
+        <div className="mt-4 border-t border-gray-700 py-4 text-center text-gray-400 text-sm ">
           <p>&copy; 2023 All Right Reserved</p>
         </div>
       </footer>
