@@ -8,7 +8,6 @@ export default function Footer() {
         style={{ backgroundImage: "url('/img/background-image.png')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-
         <div className="container mx-auto text-white relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left mb-6 md:mb-0">
@@ -17,7 +16,6 @@ export default function Footer() {
               </h2>
               <p>Sign up for our newsletter</p>
             </div>
-
             <div className="flex">
               <input
                 type="email"
@@ -31,7 +29,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
       <footer className="bg-custom-high-gray text-white py-8">
         <div className="container mx-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 text-left">
           <div>
@@ -68,7 +65,6 @@ export default function Footer() {
               />
             </div>
           </div>
-
           <div>
             <h3 className="font-semibold mb-4 text-lg">INFORMATION</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
@@ -80,7 +76,6 @@ export default function Footer() {
               <li>EMI Payment</li>
             </ul>
           </div>
-
           <div>
             <h3 className="font-semibold mb-4 text-lg">ACCOUNT</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
@@ -92,7 +87,6 @@ export default function Footer() {
               <li>Account Details</li>
             </ul>
           </div>
-
           <div>
             <h3 className="font-semibold mb-4 text-lg">STORE</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
@@ -103,7 +97,6 @@ export default function Footer() {
               <li>All Collections</li>
             </ul>
           </div>
-
           <div>
             <h3 className="font-semibold mb-4 text-lg">CONTACT US</h3>
             <p className="text-gray-300 text-sm mb-2">
@@ -130,7 +123,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
         <div className="mt-4 border-t border-gray-700 py-4 text-center text-gray-400 text-sm ">
           <p>&copy; 2023 All Right Reserved</p>
         </div>
